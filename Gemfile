@@ -4,15 +4,15 @@ gem "rails", "2.3.14"
 gem "pg"
 gem "authlogic", "2.1.6"
 gem "fastercsv", '1.5.3'
-gem "haml", '3.1.2'
+gem "haml", '5.0.0'
 gem "feedtools", '0.2.29'
 gem "uuidtools", '2.1.1'
-gem "will_paginate", '2.3.15'
+gem "will_paginate", '3.0.5'
 gem "paperclip", '2.3.8'
 gem "hoptoad_notifier", '2.3.12'
 gem "taps", "~> 0.3.22"
 gem "aws-s3", '0.6.2'
-gem "nokogiri", '1.5.0'
+gem "nokogiri", '1.16.5'
 
 group :development, :test, :cucumber do
   gem "heroku"
@@ -37,7 +37,7 @@ group :development, :test, :cucumber do
   gem "mocha", '0.9.8'
   gem 'fakeweb', '1.2.8'
   gem 'polyglot'
-  gem 'rake', '0.8.7'
+  gem 'rake', '12.3.3'
   gem 'annotate'
 end
 
